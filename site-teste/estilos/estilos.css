@@ -1,5 +1,5 @@
     html {
-	    font-size: 16px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+	font-size: 16px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
         font-family: "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
         background-color: rgba(13, 13, 13, 0.903);
         color: aliceblue;
