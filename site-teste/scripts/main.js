@@ -1,3 +1,5 @@
+// Troca de imagens
+
 const myImage = document.querySelector("img");
 myImage.onclick = () => {
 
@@ -12,23 +14,33 @@ myImage.onclick = () => {
       myImage.setAttribute("alt", "Uma passagem de formato redondo envolta por árvores amarelas curvadas");
    }
 
-};
+// Mensagem de boas vindas personalizada
 
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
-function setUserName() {
-   const myName = prompt("Por favor digite o seu nome.");
-   if (!myName) {
-      setUserName();
-   } 
-   
-   else {
-      localStorage.setItem("name", myName);
-      myHeading.textContent = `Bem vindo(a), ${myName}`;
+   function setUserName() {
+      const myName = prompt("Por favor digite o seu nome.");
+      if (!myName) {
+         setUserName();
+      }
+
+      else {
+         localStorage.setItem("name", myName);
+         myHeading.textContent = `Bem vindo(a), ${myName}`;
+      }
    }
+
+   if (!localStorage.getItem("name")) {
+      setUserName();
+   }
+   else {
+      const storedName = localStorage.getItem("name");
+      myHeading.textContent = `Bem vindo(a), ${storedName}`;
+   }
+
+myButton.onclick = function() {
+   setUserName();
 }
 
-myButton.onclick = () => {
-   setUserName();
 };
