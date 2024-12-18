@@ -1,0 +1,57 @@
+    html {
+	    font-size: 15px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+        font-family: "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
+        background-color: rgba(13, 13, 13, 0.903);
+        color: aliceblue;
+        width: auto;
+        height: auto;
+    }
+
+    body {
+        width: 620px;
+        margin: 0 auto;
+        background-color: #161414;
+        padding: 0 20px 17px 30px;
+        border: 5px solid black;
+        align-content: center;
+    }
+      
+    h1 {
+        margin: 20px;
+        font-size: 25px;
+        text-align: left;
+        color: rgba(175, 254, 85, 0.774);
+    }
+      
+    p, li {
+        font-size: 15px;
+        line-height: 2;
+        letter-spacing: 1px;
+    }
+
+    a {
+        color: rgb(66, 168, 252);
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        height: 290px;
+        width: 490px; /* larg */
+    }
+    
+    .instrucaoft {
+        width: 600px;
+        height: 20px;
+        margin-top: 4px;
+        padding-right: 20px;
+        padding-left: 344px;
+        font-size: 12px;
+        color: #b5b5b57c;
+    }
+
+    button {
+        color: rgb(0, 0, 0);
+        background-color: rgba(154, 202, 73, 0.886);
+        align-items: right;
+    }
