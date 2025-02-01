@@ -1,7 +1,7 @@
     html {
-	font-size: 16px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+	    font-size: 16px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
         font-family: "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
-        background-color: rgba(13, 13, 13, 0.903);
+        background-color: rgba(49, 31, 11, 0.965);
         color: aliceblue;
         width: auto;
         height: auto;
@@ -10,15 +10,15 @@
     body {
         width: 650px;
         margin: 0 auto;
-        background-color: #161414;
+        background-color: rgba(10, 6, 1, 0.988);
         padding: 0 15px 30px 30px;
-        border: 5px solid black;
+        border: 5px solid rgb(32, 17, 1);
         align-content: center;
     }
       
     h1 {
         margin: 20px;
-        font-size: 27px;
+        font-size: 25.6px;
         text-align: left;
         color: rgba(175, 254, 85, 0.774);
     }
@@ -30,7 +30,7 @@
     }
 
     a {
-        color: rgb(66, 168, 252);
+        color: rgb(82, 174, 249);
     }
 
     img {
