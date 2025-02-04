@@ -3,6 +3,10 @@
 Seguindo o artigo [Getting started with the web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web) da Mozilla, criei um site simples sobre refletir os sentimentos que duas imagens nos passam, utilizando os conceitos básicos de HTML, CSS e JavaScript listados abaixo.<br>
 <br>
 
+Acesse o site criado por aqui: [**O que voce sente?**](https://mozilla-introducao-a-web.vercel.app/)
+<br>
+<br>
+
 ### Principais conceitos HTML:
 
 - O propósito e a função do HTML.
@@ -17,7 +21,7 @@ Seguindo o artigo [Getting started with the web](https://developer.mozilla.org/e
 - Funcionalidade CSS comum, incluindo modelo de caixa, alteração de cores e fontes e posicionamento de elementos HTML.
 <br>
 
-### Principais conceitos JavaScript
+### Principais conceitos JavaScript:
 
 - O propósito e a função do JavaScript.
 - Fundamentos da linguagem JavaScript, como variáveis, operadores, condicionais, funções e eventos.
